@@ -1,0 +1,135 @@
+/* divs gerais*/
+body {
+  background:#F3F5FC;
+  font-family: 'Inter', sans-serif;
+}
+textarea {
+  outline: 0;
+  resize: none;
+  border: none;
+  width: 100%;
+  height: auto;
+  font-size: 32px;
+  line-height: 48px;
+  background:#F3F5FC;
+}
+/*header*/
+header {
+  width: 100%;
+}
+header img {
+  width: 30px;
+  height: 38px;
+  margin: 80px 0 0 80px;
+}
+/*main */
+main {
+  margin-bottom: 30px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/*parte-um*/
+.parte-um {
+  width: 50%;
+  margin-left:1.5em;
+  padding-top: 60px;
+}
+.textarea-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.textarea-container textarea {
+  width: 100%;
+}
+.parte-um label {
+  color: #495057;
+  font-size: 20px;
+  flex-direction: column;
+}
+/*alerta*/
+.alerta {
+  margin-left: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.alerta img {
+  margin: 10px;
+  width: 5%;
+}
+.alerta p {
+  margin: 30px 0;
+  font-size: 25px;
+  vertical-align: top;
+}
+/*botão copiar*/
+.copiar-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.copiar {
+  margin: 20px 25px;
+  align-self: flex-end;
+  padding: 20px 25px;
+  background: #0A3871;
+  font-size: 23px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  cursor:pointer;
+  border-radius: 20px;
+}
+.copiar:hover {
+  background: #024699;
+}
+.copiar:active {
+  transform: scale(0.9);
+}
+/* estilo dos botões*/
+.botao {
+  padding: 20px 25px;
+  margin: 20px 25px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 23px;
+  border: none;
+  cursor:pointer;
+  background: #0A3871;
+  border-radius: 20px;
+}
+.parte-um .botao:hover {
+  background-color: #024699;
+}
+.parte-um .botao:active {
+  transform: scale(0.9);
+}
+/* parte-dois*/
+.parte-dois {
+  width: 28%;
+  height: 100%;
+  margin: 0 30px 30px 0;
+  border-radius: 50px;
+  background: #fff;
+}
+.parte-dois textarea {
+  margin: 25px 0 20px 0px;
+  padding: 0 15px;
+  width: 98%;
+  height: 100%;
+  max-height: 250px;
+  background: none;
+}
+.parte-dois img {
+  display: block;
+  width: 85%;
+  height: auto;
+  margin: 0 auto;
+
+}
+.parte-dois p {
+  font-size: 25px;
+  padding: 20px 15px 100px 15px;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <title>Challenge 1 - Encriptador/Desencriptador de texto</title>
+  <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <section class="parte-um">
+        <div class="textarea-container">
+            <textarea required placeholder="Digite seu texto" id="mensagem-inicial" cols="30" rows="10"></textarea>  
+        </div>
+        <div class="copiar-container"><input class="copiar" type="button" value="Copiar"></div>
+        <div class="alerta">
+            <img src="img/exclamacao-texto.svg" alt="exclamação de alerta.">
+            <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <input type="submit" class="botao" value="Encriptar">
+        <input type="submit" class="botao" value="Desencriptar">
+    </section>
+    <section class="parte-dois">
+        <textarea class="resultado-mensagem" cols="30" rows="10"></textarea>
+        <div class="img">
+            <img src="img/pessoa.svg" alt="imagem com uma pessoa sentada">
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </div>
+    </section>
+</main> 
+<script src="js/script.js"></script>
+</body>
+</html>
